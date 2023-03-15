@@ -1,0 +1,55 @@
+name: venv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - asgiref=3.6.0=pyhd8ed1ab_0
+  - astroid=2.14.2=py310hca03da5_0
+  - backports.zoneinfo=0.2.1=py310hbe9552e_7
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h620ffc9_4
+  - ca-certificates=2022.12.7=h4653dfc_0
+  - certifi=2022.12.7=pyhd8ed1ab_0
+  - colorama=0.4.6=pyhd8ed1ab_0
+  - dill=0.3.6=pyhd8ed1ab_1
+  - django=4.1.7=pyhd8ed1ab_0
+  - isort=5.12.0=pyhd8ed1ab_1
+  - krb5=1.19.4=h8380606_0
+  - lazy-object-proxy=1.6.0=py310h1a28f6b_0
+  - libcxx=14.0.6=h848a8c0_0
+  - libedit=3.1.20221030=h80987f9_0
+  - libffi=3.4.2=hca03da5_6
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libopenblas=0.3.21=h269037a_0
+  - libpq=12.9=h65cfe13_3
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - mccabe=0.7.0=pyhd8ed1ab_0
+  - ncurses=6.4=h313beb8_0
+  - numpy=1.23.5=py310hb93e574_0
+  - numpy-base=1.23.5=py310haf87e8b_0
+  - openssl=1.1.1t=h03a7124_0
+  - pip=23.0.1=py310hca03da5_0
+  - platformdirs=3.1.1=pyhd8ed1ab_0
+  - psycopg2=2.9.3=py310hf27765b_0
+  - pylint=2.16.2=py310hca03da5_0
+  - pylint-django=2.5.3=pyhd8ed1ab_0
+  - pylint-plugin-utils=0.7=pyhd8ed1ab_0
+  - python=3.10.9=hc0d8a6c_2
+  - python_abi=3.10=2_cp310
+  - readline=8.2=h1a28f6b_0
+  - setuptools=65.6.3=py310hca03da5_0
+  - sqlite=3.40.1=h7a7dc30_0
+  - sqlparse=0.4.3=pyhd8ed1ab_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tomli=2.0.1=pyhd8ed1ab_0
+  - tomlkit=0.11.6=pyha770c72_0
+  - typing=3.10.0.0=pyhd8ed1ab_0
+  - typing-extensions=4.5.0=hd8ed1ab_0
+  - typing_extensions=4.5.0=pyha770c72_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.38.4=py310hca03da5_0
+  - wrapt=1.14.1=py310h1a28f6b_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+prefix: /Users/admin/miniconda3/envs/venv
