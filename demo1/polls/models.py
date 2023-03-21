@@ -11,12 +11,16 @@ class Question(models.Model):
         return self.question_text
     
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1) \
+        and self.pub_date <= timezone.now()   
 
+    def __str__(self):           # label function
+        return self.question_text
 
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE) #  tells Django each Choice is related to a single Question.
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
-    def __str__(self):
-        return self.choice_text
+    
+    def __str__(self):           # label function
+        return self.question.question_text + " _ " + self.choice_text
